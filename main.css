@@ -1,0 +1,47 @@
+.container{
+	width: 500px;
+	height: 500px;
+	margin: 20px;
+	background-color: skyblue;
+}
+
+.inline-horizontal{
+	text-align: center;
+}
+
+.inline-vertical{
+	line-height: 500px;
+}
+
+.inline-vertical>*{
+	vertical-align: middle;
+}
+
+h2{
+	margin-left: 20px;
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	margin-bottom: 5px;
+}
+
+.block-horizontal > *{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block-vertical{
+display: table;
+}
+
+.block-vertical-inner{
+	display: table-cell;
+	vertical-align: middle;
+
+}
+.block-vertical-inner> * {
+	margin-left: auto;
+	margin-right: auto;
